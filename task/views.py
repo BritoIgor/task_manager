@@ -18,5 +18,5 @@ def sobre(request):
 def tarefa(request, num):
     return HttpResponse("Tarefa: "+str(num))
 
-def tarefa(request, ano, mes):
+def tarefa(request, ano, mes, dia):
     return HttpResponse("Data: "+str(ano))
